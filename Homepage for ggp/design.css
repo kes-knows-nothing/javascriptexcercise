@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:turquoise;
+    padding: 8px 12px;
+}
+
+
+.navbar__logo {
+    font-size: 24px;
+    color: white;
+}
+
+.navbar__logo i {
+    color: black;
+    padding: 8px;
+}
+
+.navbar__menu {
+    display: flex;
+    font-size: 24px;
+    list-style: none;
+    padding-left: 0;
+    color: azure;
+}
+
+.navbar__menu li {
+    padding: 8px 12px;
+}
+
+.navbar__menu li:hover {
+    background-color: rgb(68, 153, 75);
+    border-radius: 4px;
+}
+
+.navbar__logsys {
+    list-style: none;
+    display: flex;
+}
+
+.navbar__logsys li {
+    padding: 8px 12px;
+}
