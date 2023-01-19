@@ -74,6 +74,7 @@ html {
 }
 
 .pricing-plan:last-child {
+  
   border-bottom: none;
 }
 
@@ -100,6 +101,7 @@ html {
   line-height: 1.5;
   padding: 15px 0;
   border-top: 1px solid #e1f1ff;
+  font-weight: 800;
 }
 
 .pricing-features-item:last-child {
@@ -114,11 +116,51 @@ html {
 }
 
 
+.pricing-button {
+  display:inline-block;
+  margin: 25px 0 px;
+  width: 150px;
+  padding: 15px 35px;
+  border-style: solid;
+  border-color: #9dd1ff;
+  border-width: 1px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #348efe;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  transition: background-color 200ms ease-in-out;
+}
 
+.pricing-button:hover, .pricing-button:focus {
+  background-color: #e1f1ff;
+}
 
+.pricing-button.is-featured {
+  background-color: #48aaff;
+  color: white;
+}
 
+.pricing-button.is-featured:hover, .pricing-button.is-featured:focus {
+  background-color: #269aff;
+  color: white;
+}
 
-
-
+@media (min-width: 900px){
+  .panel {
+    flex-direction: row;
+  }
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    padding:25px 50px;
+  }
+  .pricing-plan:last-child {
+    border-right: none;
+  }
+}
+  
 
 
