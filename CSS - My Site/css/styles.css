@@ -1,0 +1,33 @@
+body {
+  margin: 0 ;
+  text-align:center;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: slategray;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-container {
+  background-color: coral;
+  width: 200px;
+  height: 200px;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 300px;
+  bottom: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}

@@ -1,0 +1,78 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #;
+  
+}
+
+.napoliHead {
+  color: white;
+  
+}
+
+.feneHead {
+  color:  #ffed00 ;
+}
+
+.beijingHead {
+  color: #FFF212;
+}
+
+.jeonbukHead {
+  color: rgb(249, 216, 2)
+}
+
+.khnpHead {
+  color: #C7A36A;
+}
+
+.profileText {
+  border-style: none;
+  margin: 0 0 0.83em 0;
+}
+
+table {
+  border-style: none;
+}
+
+.photoProfile {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 32px;
+}
+
+.careerTable {
+  margin: auto;
+  width: 55%;
+  font-size: 32px;
+  margin-bottom: 200px;
+
+}
+
+.careerTextTabledata {
+  border-style: none;
+}
+
+.careerText {
+  font-size: 48px;
+}
+
+.teamName {
+  padding: 10px;
+  font-size: 32px;
+}
+
+.kimMinJaePhoto {
+  height: 600px;
+  width: auto;
+  position: relative;
+  top: 25px;
+}
+
+.gyeongjuTotalLine {
+  color: #C7A36A;
+}
+
+.jeanbukTotalLine {
+  color: rgb(249, 216, 2)
+}

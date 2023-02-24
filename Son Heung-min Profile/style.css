@@ -1,0 +1,76 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.totHead {
+  color: #132257;
+}
+
+.levHead {
+  color:  #E32221 ;
+}
+
+.hamburgerHead {
+  color: #fff;
+}
+
+.profileText1 {
+  border-style: none;
+  margin: 0 0 0.83em 0;
+  opacity: 0;
+}
+
+.profiletext {
+  border-style: none;
+  margin: 0 0 0.83em 0;
+}
+
+table {
+  border-style: none;
+}
+
+.photoProfile {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 32px;
+}
+
+.profileTable {
+  width: 20%;
+  height: 600px;
+}
+
+.profileTable2 {
+  width: 20%;
+}
+
+.careerTable {
+  margin: auto;
+  width: 55%;
+  font-size: 32px;
+  margin-bottom: 200px;
+}
+
+.careerTextTabledata {
+  border-style: none;
+}
+
+.careerText {
+  font-size: 48px;
+}
+
+.teamName {
+  padding: 10px;
+  font-size: 32px;
+}
+
+.sonHeungMinPhoto {
+  height: 100%;
+  position: relative;
+  top: 39px;
+}
+
+.f1 {
+  margin-bottom: 100px;
+}

@@ -10,12 +10,17 @@ a {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color:turquoise;
+    background-color: #ef534e;
     padding: 8px 12px;
+    justify-content: space-between;
 }
 
+
+.navbar__line {
+    display: flex;
+    align-items: center;
+}
 
 .navbar__logo {
     font-size: 24px;
@@ -33,6 +38,7 @@ a {
     list-style: none;
     padding-left: 0;
     color: azure;
+    justify-content: left;
 }
 
 .navbar__menu li {
@@ -47,6 +53,7 @@ a {
 .navbar__logsys {
     list-style: none;
     display: flex;
+    justify-content: right;
 }
 
 .navbar__logsys li {

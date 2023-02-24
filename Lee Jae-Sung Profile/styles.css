@@ -1,0 +1,75 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.profileTable1 {
+  width: 660px;
+  height: 600px;
+  
+  border-style: none;
+}
+
+.profileText {
+  border-style: none;
+  margin: 0 0 0.83em 0;
+}
+
+.photoProfile {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 32px;
+}
+
+.leeJaeSungPhoto {
+  position: relative;
+  top: 100px;
+  height: 100%;
+}
+
+.profileTable2 {
+  border-style: none;
+  width: 660px;
+  height: 600px;
+  
+}
+
+.profileText1 {
+  border-style: none;
+  margin: 0 0 0.83em 0;
+  opacity: 0;
+}
+
+.teamName {
+  padding: 10px;
+  font-size: 32px;
+}
+
+.careerText {
+  font-size: 48px;
+  border-style: none;
+}
+
+.careerTextTabledata {
+  border-style: none;
+}
+
+.careerTable {
+  margin: auto;
+  width: 55%;
+  font-size: 32px;
+  margin-bottom: 200px;
+  border-style: none;
+}
+
+.careerTextTable {
+  border-style: none;
+}
+
+.mainzHead {
+  color: #ffffff;
+}
+
+.kielHead {
+  color: #ffffff;
+}

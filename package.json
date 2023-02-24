@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@table-library/react-table-library": "^4.0.28",
+    "mongoose": "^6.9.2"
+  }
+}
