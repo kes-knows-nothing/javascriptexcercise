@@ -7,15 +7,20 @@ body {
   height: 300px;
   border-style: none;
   margin: auto;
-
+}
+.profileTable2 {
+  width: 330px;
+  height: 300px;
+  border-style: none;
+  margin: auto;
 }
 
 .fcell {
-  width: 135px;
+  width: 120px;
 }
 
 .scell {
-  width: 70px;
+  width: 65px;
 }
 
 
@@ -27,21 +32,14 @@ body {
 .photoProfile {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
-  font-size: 32px;
+  margin-top: 50px;
+  font-size: 16px;
 }
 
 .leeJaeSungPhoto {
   position: relative;
   top: 100px;
   height: 100%;
-}
-
-.profileTable2 {
-  border-style: none;
-  width: 660px;
-  height: 600px;
-  
 }
 
 .profileText1 {

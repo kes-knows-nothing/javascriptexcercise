@@ -1,0 +1,100 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    font-family: 'Noto Sans KR', 'CJONLYONENEW', '맑은 고딕', '돋움', Dotum, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    word-break: break-all;
+    color: #666;
+}
+
+body span {
+  font-family: 'Noto Sans KR', 'CJONLYONENEW', '맑은 고딕', '돋움', Dotum, sans-serif;
+}
+
+.header_content .contents h1 {
+  display: inline-flex;
+  align-items:end;
+  height: 53px;
+  vertical-align: baseline;
+
+}
+
+.header_content .contents h1 span {
+  font-weight: 300;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 0.313em;
+  line-height: 1.500em;
+  word-break: normal;
+  position: relative;
+  
+}
+
+.header .contents {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.contents {
+  display: block;
+}
+
+.skipnaiv {
+  height: 80px;
+}
+
+.header_content .contents {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 6px 25px 5px;
+  background-color: #fff;
+}
+
+.cgvimage {
+  height: 100%;
+}
+
+/* 오른쪽 리스트  */
+
+.memberInfo_wrap {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  align-items: center;
+}
+
+img {
+  vertical-align: middle;
+}
+
+li {
+  display: list-item;
+  position: relative;
+  
+  
+  
+}
+
+.header_content .contents .memberInfo_wrap li img {
+  width: 36px;
+  height: 36px;
+}
+
+.header_content .contents .memberInfo_wrap li span {
+  
+  bottom: 0;
+  font-size: 13px;
+  color: #666;
+  white-space: nowrap;
+  
+}
+
+.header_content .contents .memberInfo_wrap li {
+  margin-left: 44px;
+  margin-top: 2px;
+  width: 36px;
+  height: 55px;
+}
+

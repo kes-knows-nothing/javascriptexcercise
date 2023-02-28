@@ -1,6 +1,6 @@
 import React from "react";
 
-function Table(props) {
+function profileTable1(props) {
   return (
     <div>
   <table className="profileTable1" border="1">
@@ -45,4 +45,4 @@ function Table(props) {
   );
 }
 
-export default Table;
+export default profileTable1;
