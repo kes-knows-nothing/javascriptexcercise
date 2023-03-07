@@ -1,3 +1,62 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 .hidden {
   visibility: hidden;
+}
+
+img {
+  position:absolute;
+  width:100%;
+  height:100%;
+  left: 0px;
+  top: 0px;
+  right:0px;
+  bottom:0px;
+  z-index: -1;
+  opacity:80%;
+  }
+
+#clock {
+  vertical-align: middle ;
+  margin: 0;
+  text-align: center;
+  font-size: 140px;
+  font-weight: 500;
+  color: #fff
+  }
+
+#greeting {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 80%;
+  color: #fff
+}
+
+.clockgreeting {
+  margin-top: 45vh;
+}
+
+#quote span {
+  position: relative;
+  display: table;
+  color: white;
+  font-size: 15px;
+  margin: auto;
+  top: 150px;
+}
+
+#quote :last-child{
+  padding: 10px;
+}
+
+#login-form {
+  position: absolute;
+  top: 0%;
+  display: block;
+  border-style: none;
+  background-color: transparent;
 }
