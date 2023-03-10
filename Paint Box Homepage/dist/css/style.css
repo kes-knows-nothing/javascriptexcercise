@@ -1,0 +1,283 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+.nav_bar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 100%;
+  margin-top: 45px;
+  height: 70PX;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  z-index: 5555;
+  background-color: #fff;
+}
+
+.leftmenu {
+  margin-left: 140px;
+}
+
+.leftmenu :last-child {
+  margin-left: 45px;
+}
+
+.rightmenu {
+  display: flex;
+  margin-right: 140px;
+  align-items: center;
+}
+
+.rightmenu :first-child {
+ margin-right: 36px; 
+}
+
+.logo {
+  padding-right: 70px;
+}
+/* 첫번째 박스 */
+.firstbox {
+  display: flex;
+  margin-top: 55px;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+
+.firstbox img {
+  width: 85vw;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.innercontent {
+  position: absolute;
+  left: 50%;
+  max-width: 490px;
+  text-align: center;
+  top: 70%;
+  transform: translate3d(-50%,-50%,0);
+  color: #fff;
+}
+
+.innercontent :nth-child(1) {
+  margin: 0;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 2.2px;
+  margin-bottom: 35px;
+}
+
+.innercontent :nth-child(2) {
+  margin: 0;
+  font-weight: 300;
+  font-size: 46px;
+  line-height: 48px;
+  letter-spacing: .025em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.innercontent :nth-child(3) {
+  cursor:pointer;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 55px;
+  letter-spacing: 2.2px;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  padding: 0 50px;
+  max-width: 100%;
+  min-width: 240px;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.mainbutton:hover{
+  background-color: #fff;
+  color: #414141;
+  text-shadow: none;
+  transition: background-color .3s cubic-bezier(0.165, 0.84, 0.44, 1), color .3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* 두번째 박스 */
+
+.secondbox {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+}
+
+.secondcontentimg {
+  display: flex;
+  margin: 40px 0;
+  width: 85vw;
+}
+
+.secondcontentimg img {
+  width: 50%;
+  height: 100%;
+}
+
+.secondcontenttext {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2ede7;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55%;
+}
+
+.secondbutton button {
+  border-style: none;
+  background-color: transparent;
+  height: 55px;
+  font-size: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+  letter-spacing: 2.2px;
+  line-height: 55px;
+  padding: 0 50px;
+  border: 1px solid #414141;
+  min-width: 240px;
+  
+}
+
+.secondbutton button:hover {
+  background-color: #414141;
+  color: #fff;
+  text-shadow: none;
+  transition: background-color .3s cubic-bezier(0.165, 0.84, 0.44, 1), color .3s cubic-bezier(0.165, 0.84, 0.44, 1);
+} 
+
+.textbox p {
+  line-height: 38px;
+  font-size: 34px;
+  font-weight: 400;
+  color: #414141;
+  text-align: center;
+}
+
+.forthbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+}
+
+.smalltitle p{
+  font-size: 10px;
+  letter-spacing: 2.2px;
+  width: 85vw;
+  line-height: 15px;
+  margin-bottom: 17px;
+  margin-top: 40px;
+  padding: 0;
+  text-align: center;
+}
+
+.largetitle {
+  width: 85vw;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.largetitle em {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 38px;
+  margin-bottom: 30px;
+}
+
+.itemsection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 85vw;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#hoverimg2 {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+#viewdetail {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+.item {
+  position: relative;
+  display: flex;;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemkind {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  letter-spacing: 2.2px;
+  line-height: 15px;
+  min-height: 15px;
+  margin-bottom: 0;
+}
+.item img {
+  width: 70%;
+  align-self: center;
+}
+
+.itemkind p {
+  margin: 0;
+}
+
+.itemkind span {
+  color: #cfa102;
+  padding-left: 10px;
+}
+
+.itemname p {
+  font-size: 30px;
+  font-style: italic;
+  line-height: 38px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+.price {
+  position: relative;
+  display: flex;
+  color: #9d9d9c;
+  letter-spacing: 2px;
+  font-size: 10px;
+  width: 100%;
+  justify-content: center;
+}
+.addtocart {
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
